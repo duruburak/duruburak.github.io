@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Burak Duru</title>
+
+  <!-- SEO & Social -->
+  <meta name="description" content="Burak Duru — Data Analyst & Python Developer. Projects, try-outs and case studies." />
+  <link rel="canonical" href="https://duruburak.github.io/#portfolio" />
+
+  <!-- Preconnect & preloading (speeds up external resource use) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Funnel+Display:wght@300..800&family=Gowun+Dodum&family=Lavishly+Yours&family=Rubik+Glitch&family=Titan+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Structured data (search engines, richer results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Burak Duru",
+    "url": "https://duruburak.github.io",
+    "jobTitle": "Data Analyst, Python Developer, Data Scientist, Research Scientist",
+    "sameAs": [
+      "https://www.duruburak.com",
+      "https://github.com/duruburak",
+      "https://www.linkedin.com/in/duruburak"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav role="navigation" aria-label="Main navigation">
+  <!-- LEFT -->
+  <div class="navbar-left">
+    <a href="#home" id="navbar-signature">Burak Duru</a>
+  </div>
+  <!-- CENTER -->
+  <ul class="navbar-nav">
+    <li class="hide-on-mobile">
+      <a href="#home">Home</a>
+    </li>
+    <li class="hide-on-mobile">
+      <a href="#portfolio">Portfolio</a>
+    </li>
+    <li class="hide-on-mobile">
+      <a href="#about-me">About Me</a>
+    </li>
+    <li class="hide-on-mobile">
+      <a href="#contact">Contact</a>
+    </li>
+    <li class="nav-menu-open-button">
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a>
+    </li>
+  </ul>
+  <!-- SIDEBAR (ON SMALL DEVICES) -->
+  <ul class="navbar-sidebar">
+      <li class="nav-menu-close-button">
+        <i class="fa-solid fa-xmark"></i>
+      </li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <div class="home-main-content">
+    <div class="home-who-am-i">
+      <h2>Hi, I’m Burak,</h2>
+      <span id="home-span">
+        <h1 class="home-span-item"><span>Data Analyst</span></h1>
+        <span class="home-span-item">&</span>
+        <h1 class="home-span-item" data-text="Python Dev"><span>Python Dev</span></h1>
+      </span>
+      <h2>based in Türkiye.</h2>
+      <div class="button-container">
+        <a href="#portfolio">projects</a>
+      </div>
+    </div>
+    <div class="home-mypic">
+      <img id="myHeadshot" src="assets/images/mypic.png" alt="Burak Duru">
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="container">
+    <h2>portfolio.</h2>
+
+    <!-- FILTERS -->
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="case-study">Case Study</button>
+      <button class="filter-btn" data-filter="data-science">Data Science</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+    </div>
+
+    <!-- GRID (To be filled by JS) -->
+    <div class="portfolio-grid" id="portfolioGrid"></div>
+  </div>
+</section>
+
+<!-- ABOUT ME -->
+<section id="about-me">
+  <div class="container">
+    <h2>about me.</h2>
+    <p>
+      Hey there, welcome to my Portfolio Website! My name is Burak and I am a Data Analyst and Python Developer.
+      Here is my portfolio website, particularly for showcasing my technical projects, case studies and try-outs across 
+      various fields. Please visit <a href="https://www.duruburak.com">duruburak.com</a> to see my personal website, which represents me 
+      much better. Both websites are solo-developed by me. I love dealing with data, coding, video games, art and music 🫰.
+    </p>
+    <div class="about-me-skills">
+      <h3>SKILLS</h3>
+      <button class="gradient-btn"><span class="gradient-txt">Python</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">SQL</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">NoSQL</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">Microsoft Excel</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">R</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">Google Cloud</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">JavaScript</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">HTML5</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">CSS</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">React</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">AWS</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <h2>contact.</h2>
+    <div class="contact-list">
+      <div class="contact-item" id="contact-email">
+        <span class="email-tooltip">Copy e-mail address</span>
+        <h3>
+          E-mail:  
+          <a><i class="fa-solid fa-envelope"></i> duruburak.tr@gmail.com</a>
+        </h3>
+      </div>
+      <div class="contact-item" id="contact-github" data-url="https://github.com/duruburak">
+        <h3>
+          GitHub: 
+          <a><i class="fa-brands fa-github"></i> duruburak</a>
+        </h3>
+      </div>
+      <div class="contact-item" id="contact-linkedin" data-url="https://www.linkedin.com/in/duruburak">
+        <h3>
+          LinkedIn: 
+          <a><i class="fa-brands fa-linkedin-in"></i>  duruburak</a>
+        </h3>
+      </div>
+      <div class="contact-item" id="contact-medium" data-url="#">
+        <h3>
+          Medium: 
+          <a><i class="fa-brands fa-medium"></i> duruburak</a>
+        </h3>
+      </div>
+      <div class="contact-item" id="contact-website" data-url="https://www.duruburak.com">
+        <h3>
+          Personal Website: 
+          <a><i class="fa-brands fa-blogger"></i> duruburak.com</a>
+        </h3>
+      </div>
+      <div class="contact-item" id="contact-resume" data-url="/assets/files/Burak_Duru_Curriculum_Vitae.pdf">
+        <h3>
+          Professional CV/Résumé: 
+          <a><i class="fa-solid fa-file"></i> 2026.01.10</a>
+        </h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
