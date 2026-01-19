@@ -65,10 +65,10 @@ const NavbarModule = {
     // Adds sidebar open/close event listeners
     initSidebar() {
         this.sidebarOpenBtn.addEventListener("click", () =>
-            this.toggleSidebar(true)
+            this.toggleSidebar(true),
         );
         this.sidebarCloseBtn.addEventListener("click", () =>
-            this.toggleSidebar(false)
+            this.toggleSidebar(false),
         );
 
         // Added feature to close sidebar with ESC key
@@ -95,7 +95,7 @@ const NavbarModule = {
         const handleScroll = debounce(() => {
             this.navbar.classList.toggle(
                 "scrolled",
-                window.scrollY > CONFIG.SCROLL_THRESHOLD
+                window.scrollY > CONFIG.SCROLL_THRESHOLD,
             );
         }, CONFIG.DEBOUNCE_DELAY);
 
@@ -114,8 +114,14 @@ const PortfolioModule = {
     // Project data - In real application, this data comes from an API
     projects: [
         {
+            title: "[coming soon...] E-Commerce Data Analysis on GCP Using BigQuery",
+            category: ["case-study", "data-science"],
+            image: "assets/images/project-case-study-ecommerce.png",
+            link: "#",
+        },
+        {
             title: "Comprehensive Exploratory Data Analysis of Movies Dataset With Python",
-            category: "data-science",
+            category: ["case-study", "data-science"],
             image: "assets/images/project-eda-movies.png",
             link: "https://github.com/duruburak/EDA-w-Python",
         },
@@ -185,7 +191,7 @@ const PortfolioModule = {
                         <h3>${item.title}</h3>
                     </a>
                 </div>
-            `
+            `,
             )
             .join("");
 
@@ -252,7 +258,7 @@ const ParticleEffect = {
         if (
             !assertElement(
                 this.spanElement,
-                "Particle effect target element not found"
+                "Particle effect target element not found",
             )
         )
             return;
@@ -290,7 +296,7 @@ const ParticleEffect = {
         // More modern and readable with Array.from
         this.particles = Array.from(
             { length: CONFIG.PARTICLE_COUNT },
-            () => new Particle(this.canvas)
+            () => new Particle(this.canvas),
         );
     },
 
@@ -316,7 +322,7 @@ const ParticleEffect = {
             0,
             0,
             this.canvas.width,
-            this.canvas.height
+            this.canvas.height,
         );
     },
 
@@ -512,7 +518,7 @@ const ContactModule = {
     // Adds click events to social media links
     initSocialLinks() {
         const socialLinks = document.querySelectorAll(
-            ".contact-item:not(#contact-email)"
+            ".contact-item:not(#contact-email)",
         );
 
         socialLinks.forEach((link) => {
