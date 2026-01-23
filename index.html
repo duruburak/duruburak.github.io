@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
   <title>Portfolio | Burak Duru</title>
 
   <!-- SEO & Social -->
@@ -16,6 +17,12 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <meta property="og:title" content="The Portfolio Website of Burak Duru">
+  <meta property="og:description" content="The website to showcase Burak Duru's works.">
+  <meta property="og:image" content="assets/images/website_preview_img.png">
+  <meta property="og:url" content="https://duruburak.github.io">
+  <meta property="og:type" content="website">
 
   <!-- Structured data (search engines, richer results) -->
   <script type="application/ld+json">
@@ -75,20 +82,22 @@
 <!-- HOME -->
 <section id="home">
   <div class="home-main-content">
-    <div class="home-who-am-i">
-      <h2>Hi, I’m Burak,</h2>
-      <span id="home-span">
-        <h1 class="home-span-item"><span>Data Analyst</span></h1>
-        <span class="home-span-item">&</span>
-        <h1 class="home-span-item" data-text="Python Dev"><span>Python Dev</span></h1>
-      </span>
-      <h2>based in Türkiye.</h2>
-      <div class="button-container">
-        <a href="#portfolio">projects</a>
+    <div class="home-main-content-flex-container">
+      <div class="home-who-am-i">
+        <h2>Hi, I’m Burak,</h2>
+        <span id="home-span">
+          <h1 class="home-span-item">Data Analyst</h1>
+          <span class="home-span-item">&</span>
+          <h1 class="home-span-item" data-text="Python Dev">Python Dev</h1>
+        </span>
+        <h2>based in Türkiye.</h2>
+        <div class="button-container">
+          <a href="#portfolio">projects</a>
+        </div>
       </div>
-    </div>
-    <div class="home-mypic">
-      <img id="myHeadshot" src="assets/images/mypic.png" alt="Burak Duru">
+      <div class="home-mypic">
+        <img id="myHeadshot" src="assets/images/mypic.png" alt="Burak Duru">
+      </div>
     </div>
   </div>
 </section>
@@ -119,22 +128,22 @@
       Hey there, my name is Burak and I am a Data Analyst and Python Developer. Here is my portfolio website, 
       particularly for showcasing my technical projects, case studies and try-outs across various fields. 
       Please visit <a href="https://www.duruburak.com">duruburak.com</a> to see my personal website, which represents me 
-      much better. Both websites are solo-developed by me. I love dealing with data, coding, video games, art and music 🫰.
+      much better. Both websites are solo-developed by me. I rather like making sense of data, coding, video games, art and music 🫰.
     </p>
     <div class="about-me-skills">
       <h3>SKILLS</h3>
       <button class="gradient-btn"><span class="gradient-txt">Python</span></button>
-      <button class="gradient-btn"><span class="gradient-txt">SQL</span></button>
-      <button class="gradient-btn"><span class="gradient-txt">NoSQL</span></button>
-      <button class="gradient-btn"><span class="gradient-txt">Microsoft Excel</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">SQL & NoSQL</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">Data Science</span></button>
       <button class="gradient-btn"><span class="gradient-txt">R</span></button>
       <button class="gradient-btn"><span class="gradient-txt">Google Cloud</span></button>
       <button class="gradient-btn"><span class="gradient-txt">JavaScript</span></button>
-      <button class="gradient-btn"><span class="gradient-txt">HTML5</span></button>
-      <button class="gradient-btn"><span class="gradient-txt">CSS</span></button>
-      <button class="gradient-btn"><span class="gradient-txt">React</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">Microsoft Excel</span></button>
       <button class="gradient-btn"><span class="gradient-txt">Tableau</span></button>
       <button class="gradient-btn"><span class="gradient-txt">Power BI</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">React</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">HTML5</span></button>
+      <button class="gradient-btn"><span class="gradient-txt">CSS</span></button>
       <button class="gradient-btn"><span class="gradient-txt">AWS</span></button>
     </div>
   </div>
@@ -164,12 +173,12 @@
           <a><i class="fa-brands fa-linkedin-in"></i>  duruburak</a>
         </h3>
       </div>
-      <div class="contact-item" id="contact-medium" data-url="#">
+      <!-- <div class="contact-item" id="contact-medium" data-url="#">
         <h3>
           Medium: 
           <a><i class="fa-brands fa-medium"></i> duruburak</a>
         </h3>
-      </div>
+      </div> -->
       <div class="contact-item" id="contact-website" data-url="https://www.duruburak.com">
         <h3>
           Personal Website: 

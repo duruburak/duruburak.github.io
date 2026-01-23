@@ -114,7 +114,7 @@ const PortfolioModule = {
     // Project data - In real application, this data comes from an API
     projects: [
         {
-            title: "[coming soon...] E-Commerce Data Analysis on GCP Using BigQuery",
+            title: "[will be uploaded soon...] <br > E-Commerce Data Analysis with BigQuery on Google Cloud Platform",
             category: ["case-study", "data-science"],
             image: "assets/images/project-case-study-ecommerce.png",
             link: "#",
@@ -126,7 +126,7 @@ const PortfolioModule = {
             link: "https://github.com/duruburak/EDA-w-Python",
         },
         {
-            title: "Desktop Weather App",
+            title: "Weather Forecast Desktop App",
             category: "python",
             image: "assets/images/project-weather-app.png",
             link: "https://github.com/duruburak/Weather-App",
@@ -542,7 +542,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Initialize all modules
         NavbarModule.init();
         PortfolioModule.init();
-        ParticleEffect.init();
+        // ParticleEffect.init();
         ContactModule.init();
 
         console.log("✅ All modules initialized successfully");
