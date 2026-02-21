@@ -6,6 +6,7 @@
 # Me-specific files
 *.psd
 *.PSD
+*.docx
 
 # User-specific files
 *.rsuser

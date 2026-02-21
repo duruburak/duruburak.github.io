@@ -114,10 +114,10 @@ const PortfolioModule = {
     // Project data - In real application, this data comes from an API
     projects: [
         {
-            title: "[will be uploaded soon...] <br > E-Commerce Data Analysis with BigQuery on Google Cloud Platform",
+            title: "E-Commerce Data Analysis with BigQuery on Google Cloud Platform",
             category: ["case-study", "data-science"],
             image: "assets/images/project-case-study-ecommerce.png",
-            link: "#",
+            link: "https://github.com/duruburak/GCP-BigQuery-E-Commerce-Case-Study",
         },
         {
             title: "Comprehensive Exploratory Data Analysis of Movies Dataset With Python",
