@@ -114,6 +114,12 @@ const PortfolioModule = {
     // Project data - In real application, this data comes from an API
     projects: [
         {
+            title: "Video Games Case Study: PlayStation vs Steam",
+            category: ["case-study", "data-science"],
+            image: "assets/images/project-case-study-videogames.png",
+            link: "https://github.com/duruburak/Video-Games-Case-Study-Playstation-vs-Steam",
+        },
+        {
             title: "E-Commerce Data Analysis with BigQuery on Google Cloud Platform",
             category: ["case-study", "data-science"],
             image: "assets/images/project-case-study-ecommerce.png",
