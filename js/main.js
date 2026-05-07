@@ -156,6 +156,18 @@ const PortfolioModule = {
             link: "https://github.com/duruburak/typing-speed-accuracy-test",
         },
         {
+            title: "Cross Cultural Context with Natural Language Processing (NLP)",
+            category: ["python", "data-science"],
+            image: "assets/images/project-nlp-cross-cultural-context.png",
+            link: "https://github.com/duruburak/NLP-Study-Cross-Cultural-Context",
+        },
+        {
+            title: "Youtube Downloader Software",
+            category: "python",
+            image: "assets/images/project-youtube-downloader.png",
+            link: "",
+        },
+        {
             title: "Secure Password Generator",
             category: "python",
             image: "assets/images/project-secure-password-generator.png",
